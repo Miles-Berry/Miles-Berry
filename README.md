@@ -1,4 +1,4 @@
-### Hello World! Welcome to my profile :)
+### Hello World! Welcome to my GitHub profile :)
 
 - 🔭 I’m currently working on:
   - Applying to music/audio companies that need software development and/or testing
