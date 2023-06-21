@@ -1,6 +1,4 @@
-### Hi! Welcome to my profile :)
-
-### Here is some insight into what I am about:
+### Hello World! Welcome to my profile :)
 
 - 🔭 I’m currently working on:
   - Applying to music/audio companies that need software development and/or testing
