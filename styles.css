@@ -1,0 +1,16 @@
+body {
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    background-image: url('imgs/SpaceBMP.bmp');
+    color: white;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: contain;
+    font-family: Courier, monospace;
+}
+
+h1, p {
+    text-align: center;
+    margin: 0 auto;
+}
