@@ -10,7 +10,159 @@ body {
     font-family: Courier, monospace;
 }
 
-h1, p {
-    text-align: center;
-    margin: 0 auto;
+@font-face { 
+    font-family: 'MyFont'; 
+    src: 
+        url('./Boss.otf')  
+        format('opentype'); 
+    font-weight: normal; 
+    font-style: normal; 
+} 
+
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
 }
+
+body {
+    margin: 0 3%;
+    display: flex;
+    flex-direction: column;
+}
+
+.indent {
+    padding-left: 1rem;
+}
+
+
+/* --- HEADER --- */
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Name */
+h1 {
+    font-size: 44px;
+    font-family:'Courier New', Courier, monospace;
+    font-style: italic;
+    
+}
+.name {
+    padding: 0 7px 3px 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.tagline:not(.bass){
+    font-weight: bold;
+    text-align: center;
+    font-size: 14px;
+    margin: 0 auto;
+    margin-top: -5px;
+}
+
+.bass {
+    font-style: italic;
+    font-weight: normal;
+    font-size: calc(inherit - 4);
+}
+
+.contact-info {
+    text-align: center;
+    font-size: 10px;
+    margin-top: 5px;
+}
+
+
+/* --- BODY --- */
+
+section {
+    display: flex;
+    margin-top: 15px;
+}
+
+.left {
+    width: 20%;
+    max-width: 100px;
+    text-align: right;
+    border-right: 1px solid black;
+    padding-right: 5px;
+    padding-top: 2px;
+}
+
+.right {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 80%;
+}
+
+/* Section Titles */
+h2 {
+    font-size: 16px;
+    font-weight: normal;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Experience Titles */
+h3 {
+    font-size: 14px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Subsections */
+h4 {
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 3px;
+    
+}
+
+/* Body Text */
+p {
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-size: 11px;
+}
+
+.experience {
+    padding: 5px 0;
+}
+
+.experience:first-of-type{
+    padding: 0;
+}
+
+.experience-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.e-left{
+    width: 68%;
+}
+
+.e-right{
+    width: 32%;
+    text-align: right;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.interests {
+    display: flex;
+    align-items: center;
+}
+
